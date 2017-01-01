@@ -1,10 +1,14 @@
+/** 
+ *  Sets up pin 13 as output.
+ */
 void setup() {
-  // put your setup code here, to run once:
   pinMode(13, OUTPUT);
 }
 
+/**
+ * Toggles pin 13 on 1 second intervals.
+ */
 void loop() {
-  // put your main code here, to run repeatedly:
   digitalWrite(13, HIGH);
   delay(1000);
   digitalWrite(13, LOW);
